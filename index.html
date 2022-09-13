@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+<form >
+
+    
+    E-mail:
+    <input id = "Email" type="email" name="email" pattern="[a-z0-9._+\-]+@[a-z0-
+    9.\-]+\.[a-z]{2,3}">
+    <input id = "Email" type="submit">
+    <label id ="label"> Password:</label>
+    <div>
+       
+        <input id = "pass" type="password" name="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
+        " "title=“Please enter a URL">
+        <input id = "pass" type="submit">
+    </div>
+    
+
+    </form>
+    
+<style>
+
+    #Email{
+
+        position: relative;
+        float: inline-start;
+        top: 40px;
+        left: -50px;
+        padding: 5px;
+    }
+
+    #pass{
+
+        position: relative;
+        padding: 5px;
+        margin-top: 100px;
+       
+    }
+
+    #label{
+        position: absolute;
+        padding: 5px;
+        margin-top: 100px;
+        left: 0px;
+    }
+</style>
+
+    </html>
